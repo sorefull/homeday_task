@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Trail Task for Homeday
 
-Things you may want to cover:
+### Installation:
 
-* Ruby version
+- clone repo `git clone git@github.com:sorefull/homeday_task.git`
+- install PostgreSQL
+- bundle gems
+- create database `rails db:create`
+- load database from dump if needed `psql -d homeday_development -f ../path/to/dump.sql`
+- migrate database `rails db:migrate`
+- run server
 
-* System dependencies
+### Testing
 
-* Configuration
+- `rspec`
 
-* Database creation
+### ENV
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- ruby `2.5.1`
+- rails `5.2.1`
+- bundler `1.16.2`
